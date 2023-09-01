@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 148, 163, 184;
+  --background-start-rgb: 15, 23, 42;
+  --background-end-rgb: 10, 10, 20;
+  font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,3 +26,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.custom-position {
+  object-position: 60% -3px;
+}
+
